@@ -74,3 +74,4 @@ nmap('dw', 'vb"_d')
 nmap('<C-a>', 'gg<S-v>G')
 -- Reload Config
 nmap('<c-]>]',':so %<CR>')
+
