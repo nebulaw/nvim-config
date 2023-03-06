@@ -17,5 +17,6 @@ toggleterm.setup {
   persist_size = true,
   direction = 'horizontal',
 }
-
 nmap('<C-t>', '<cmd>ToggleTerm<CR>')
+
+

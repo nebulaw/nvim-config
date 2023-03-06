@@ -16,3 +16,4 @@ require('nebula.configs.treesitter')
 require('nebula.configs.lsp-config')
 require('nebula.configs.completions')
 require('nebula.configs.telescope')
+

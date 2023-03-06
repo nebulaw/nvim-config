@@ -38,3 +38,4 @@ bufferline.setup {
 
 nmap('<tab>', '<cmd>BufferLineCycleNext<CR>')
 nmap('<S-tab>', '<cmd>BufferLineCyclePrev<CR>')
+
