@@ -24,6 +24,7 @@ mason_lsp.setup({
     'marksman',
     'sqls',
     'vtsls',
+    'vuels',
   },
 })
 
@@ -84,4 +85,9 @@ require('lspconfig').lua_ls.setup {
 require('lspconfig').ocamllsp.setup {
   capabilities = capabilities,
 }
+
+require('lspconfig').vuels.setup {
+  capabilities = capabilities,
+}
+
 
