@@ -25,15 +25,6 @@ bufferline.setup {
       return s
     end
   },
-  highlights = {
-    separator = {
-      fg = '#f0f0f0',
-      bg = '#f0f0f0',
-    },
-    buffer_selected = {
-      fg = '#f0f0f0',
-    },
-  },
 }
 
 nmap('<tab>', '<cmd>BufferLineCycleNext<CR>')

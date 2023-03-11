@@ -30,7 +30,7 @@ if (vim.g.neovide) then
   vim.opt.guifont = "MonaLisa-Regular:h15"
   vim.opt.linespace = 0
 	vim.g.neovide_scale_factor = 1.4
-  vim.g.neovide_transparency = 0.72
+  vim.g.neovide_transparency = 0.85
   vim.g.neovide_refresh_rate = 60
   vim.g.neovide_refresh_rate_idle = 2
   vim.g.neovide_no_idle = true
