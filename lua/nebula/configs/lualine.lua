@@ -9,7 +9,7 @@ end
 lualine.setup {
   options = {
     icons_enabled = true,
-    theme = 'horizon'
+    theme = 'moonfly'
     -- THEMES:
     -- horizon
     -- moonfly
