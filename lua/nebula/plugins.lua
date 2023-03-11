@@ -50,5 +50,6 @@ packer.startup(function(use)
   use 'dinhhuy258/git.nvim'
   use 'akinsho/toggleterm.nvim'
   use 'github/copilot.vim'
+  use 'kdheepak/lazygit.nvim'
 end)
 
