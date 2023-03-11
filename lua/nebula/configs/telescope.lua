@@ -37,13 +37,14 @@ telescope.setup {
           ['/'] = function()
             vim.cmd [[startinsert]]
           end
-        }
-      }
-    }
+        },
+      },
+    },
   }
 }
 
 telescope.load_extension('file_browser')
+telescope.load_extension('lazygit')
 
 local bi = require('telescope.builtin')
 local opts = { noremap=true, silent=true }
@@ -71,4 +72,6 @@ kset('n', '<space>ll', bi.live_grep, opts)
 -- colorschemes
 kset('n', '<space>cs', bi.colorscheme, opts)
 
+-- LazyGit
+kset('n', '<space>lg', '<cmd>lua require(\'telescope\').extensions.lazygit.lazygit()<CR>',opts)
 
