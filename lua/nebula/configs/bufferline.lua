@@ -9,7 +9,7 @@ end
 bufferline.setup {
   options = {
     mode = 'tabs',
-    -- separator_style = 'slant',
+    separator_style = 'slant',
     always_show_bufferline = false,
     show_buffer_close_icons = false,
     show_close_icon = false,
@@ -23,7 +23,16 @@ bufferline.setup {
         s = s .. n .. sym
       end
       return s
-    end
+    end,
+    offsets = {
+      {
+        filetype = "NvimTree",
+        text = "Files Explorer",
+        highlight = "Directory",
+        separator = true,
+      }
+    },
+
   },
 }
 
